@@ -1,0 +1,8 @@
+/node-modules/
+/test-results/
+/tests-examples/
+/playwright-report/
+/blob-report/
+/package-lock.json/
+/junit-test-report/
+/tsconfig.json/
