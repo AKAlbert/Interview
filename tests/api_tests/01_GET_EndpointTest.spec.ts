@@ -10,7 +10,7 @@ test('GET Posts test', async({request}) =>{
     const jsonResponse = await response.json();
     console.log('GET posts Response :' + JSON.stringify(jsonResponse, null, 2))
 
-    expect (response.status()).toBe(201);
+    expect (response.status()).toBe(200);
     expect (response.statusText()).toBe('OK')
 
 });
@@ -23,5 +23,4 @@ test('GET Specific Posts test', async({request}) =>{
     console.log('GET posts Response :' + JSON.stringify(jsonResponse, null, 2))
 
 });
-
 
